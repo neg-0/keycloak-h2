@@ -1,4 +1,5 @@
-FROM jboss/keycloak
+# This image uses GitHub Actions to automatically build a multiarch version of jboss/keycloak upon release
+FROM marcelcoding/keycloak
 
 COPY ./realm-export.json /tmp/realm-export.json
 # COPY ./users.json /tmp/users.json
