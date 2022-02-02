@@ -613,7 +613,8 @@
       "secret": "**********",
       "redirectUris": [
         "http://localhost:3000/*",
-        "http://localhost:8000/*"
+        "http://localhost:8000/*",
+        "http://docker.local:8000/*"
       ],
       "webOrigins": [
         "*"
